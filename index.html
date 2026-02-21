@@ -65,12 +65,12 @@ to collect anonymous usage statistics, device information,
 and crash reports to improve performance and stability.
 </p>
 
-<h3>Device or Other IDs</h3>
+<h3>Device or Other IDs (Including Advertising ID)</h3>
 <p>
 We may collect device identifiers and other non-personally identifiable information 
 for analytics, crash reporting, and app performance monitoring purposes. 
-These identifiers help us improve app stability and functionality. 
-No personally identifiable information is associated with these IDs.
+Specifically, we use the Google Advertising ID (AD_ID) <strong>only for analytics</strong> to understand app usage and improve user experience.
+These identifiers do not personally identify you, and we <strong>do not use them for personalized ads</strong>.
 </p>
 
 <h2>2. How We Use Information</h2>
@@ -79,7 +79,7 @@ No personally identifiable information is associated with these IDs.
 <li>To enable secure Google authentication</li>
 <li>To improve performance and fix technical issues</li>
 <li>To enhance user experience</li>
-<li>To show ads in the future if enabled, while respecting user privacy and Google Play policies</li>
+<li>For analytics via Firebase (AD_ID) to understand app usage; no personalized ads are served</li>
 </ul>
 
 <h2>3. Notifications & Reminders</h2>
@@ -97,8 +97,8 @@ You can disable notifications anytime in your device settings.
 <h2>4. Data Sharing</h2>
 <p>
 We do not sell, rent, or trade your personal information.
-Information processed through third-party services is handled according to their privacy policies.
-If we add ads in the future, ad networks may collect anonymized identifiers (like Advertising ID) for personalized ads.
+Information processed through third-party services (Firebase Analytics, Crashlytics) is handled according to their privacy policies.
+No personally identifiable data is shared with advertisers.
 </p>
 
 <h2>5. Data Storage & Security</h2>
@@ -109,11 +109,12 @@ All data transmitted via third-party services is encrypted in transit.
 
 <h2>6. App Permissions</h2>
 <ul>
-<li><strong>INTERNET</strong> – Required for authentication, analytics, and future ads if enabled</li>
+<li><strong>INTERNET</strong> – Required for authentication, analytics, and future optional ads if enabled</li>
 <li><strong>ACCESS_NETWORK_STATE</strong> – To check internet availability</li>
 <li><strong>POST_NOTIFICATIONS</strong> – To send reminders and updates</li>
 <li><strong>RECEIVE_BOOT_COMPLETED</strong> – To reschedule reminders after device restart</li>
 <li><strong>SCHEDULE_EXACT_ALARM</strong> – To deliver time-sensitive reminders</li>
+<li><strong>ADVERTISING ID (AD_ID)</strong> – Used only for analytics to improve app usage experience</li>
 </ul>
 
 <h2>7. Children’s Privacy</h2>
